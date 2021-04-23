@@ -118,7 +118,7 @@
                :sumary  "Consulta de produto por Pagina"
                :handler (router :product/get-by-page)
                :context {:persistence (ig/ref ::persistence/data-persistence)}}}]
-   ["/:id" {:get    {:tags    ["Challenge API - Produto"]
+   ["/:id/" {:get    {:tags    ["Challenge API - Produto"]
                      :sumary  "Consulta de produto por ID"
                      :handler (router :product/get-by-id)
                      :context {:persistence (ig/ref ::persistence/data-persistence)}}
