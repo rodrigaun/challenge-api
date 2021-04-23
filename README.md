@@ -25,3 +25,14 @@ Stop
 - Load `dev/user.clj` file and evaluate `go` function (application will start locally)
 `halt` to stop
 
+## API
+
+To access API endpoints you have to be authenticated.
+
+You can do it on `localhost:3000/api/login` with a Basic Auth
+
+Database has a user included for test.
+Username: `email-jose@email.com`
+Password: `1234`
+
+Others endpoints you have to pass a `JWT TOKEN` in `BEARER Token`
