@@ -10,8 +10,11 @@ Requirements
 ## Run Locally
 
 ### PostgreSQL
-Start
+Create and run container
 `docker run --net=host --name my-postgres -e POSTGRES_PASSWORD=password -d postgres`
+
+Start
+`docker start my-postgres`
 
 Stop
 `docker stop my-postgres`
