@@ -39,3 +39,6 @@ Username: `email-jose@email.com`
 Password: `1234`
 
 Others endpoints you have to pass a `JWT TOKEN` in `BEARER Token`
+
+### API Doc:
+https://documenter.getpostman.com/view/376803/TzJydbG3
